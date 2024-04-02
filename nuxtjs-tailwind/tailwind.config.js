@@ -16,7 +16,13 @@ export default {
       transparent: 'transparent',
       current: 'currentColor',
 
+      bg: {
+        light: '#f2f2f2',
+        dark: '#666666',
+      },
+
       primary: {
+        surface: '#f2f2f2',
         mainSet: {
           enable: 'var(--color-blue-500)',
           hover: 'var(--color-blue-700)',
@@ -46,6 +52,7 @@ export default {
       },
       dark: {
         primary: {
+          surface: '#666666',
           mainSet: {
             enable: 'var(--color-blue-300)',
             hover: 'var(--color-blue-100)',
@@ -64,11 +71,9 @@ export default {
       },
     },
 
-
     fontFamily: {
       iranSans: ['IranSans'],
     },
   },
   plugins: [],
-}
-
+};
