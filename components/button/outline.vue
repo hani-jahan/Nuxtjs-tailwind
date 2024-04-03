@@ -2,13 +2,13 @@
   <button
     class="py-3 px-5 text-center rounded-lg leading-6 text-base font-iranSans font-normal border-2
 
-    bg-transparent text-onPrimary-varSet-enable border-onPrimary-varSet-enable
+    bg-transparent text-onPrimary-var border-onPrimary-var
     
-    hover:bg-primary-varSet-hover hover:text-onPrimary-varSet-hover hover:border-onPrimary-varSet-hover
+    hover:bg-primary-var-hover hover:text-onPrimary-var-hover hover:border-onPrimary-var-hover
     
-    active:bg-primary-varSet-pressed active:text-onPrimary-varSet-pressed active:border-onPrimary-varSet-pressed
+    active:bg-primary-var-active active:text-onPrimary-var-active active:border-onPrimary-var-active
     
-    disabled:bg-transparent disabled:text-onPrimary-varSet-disable disabled:border-onPrimary-varSet-disable"
+    disabled:bg-transparent disabled:text-onPrimary-var-disable disabled:border-onPrimary-var-disable"
   >
     {{ text }}
   </button>

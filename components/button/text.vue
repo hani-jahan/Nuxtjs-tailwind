@@ -1,10 +1,10 @@
 <template>
   <button
     class="py-3 px-5 text-center rounded-lg leading-6 text-base font-iranSans font-normal
-    bg-transparent text-onPrimary-varSet-enable
-    hover:bg-primary-varSet-hover hover:text-onPrimary-varSet-hover 
-    active:bg-primary-varSet-pressed active:text-onPrimary-varSet-pressed 
-    disabled:bg-transparent disabled:text-onPrimary-varSet-disable"
+    bg-transparent text-onPrimary-var
+    hover:bg-primary-var-hover hover:text-onPrimary-var-hover 
+    active:bg-primary-var-active active:text-onPrimary-var-active 
+    disabled:bg-transparent disabled:text-onPrimary-var-disable"
   >
     {{ text }}
   </button>

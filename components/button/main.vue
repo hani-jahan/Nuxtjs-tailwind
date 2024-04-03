@@ -1,15 +1,15 @@
 <template>
   <button
     class="py-3 px-5 text-center rounded-lg leading-6 text-base font-iranSans font-normal
-    bg-primary-mainSet-enable text-onPrimary-mainSet-enable
-    hover:bg-primary-mainSet-hover hover:text-onPrimary-mainSet-hover
-    active:bg-primary-mainSet-pressed active:text-onPrimary-mainSet-pressed
-    disabled:bg-primary-mainSet-disable disabled:text-onPrimary-mainSet-disable
+    bg-primary-main text-onPrimary-main
+    hover:bg-primary-main-hover hover:text-onPrimary-main-hover
+    active:bg-primary-main-active active:text-onPrimary-main-active
+    disabled:bg-primary-main-disable disabled:text-onPrimary-main-disable
     
-    dark:bg-dark-primary-mainSet-enable dark:text-dark-onPrimary-mainSet-enable
-    dark:hover:bg-dark-primary-mainSet-hover dark:hover:text-dark-onPrimary-mainSet-hover
-    dark:active:bg-dark-primary-mainSet-pressed dark:active:text-dark-onPrimary-mainSet-pressed
-    dark:disabled:bg-dark-primary-mainSet-disable dark:disabled:text-dark-onPrimary-mainSet-disable"
+    dark:bg-dark-primary-main dark:text-dark-onPrimary-main
+    dark:hover:bg-dark-primary-main-hover dark:hover:text-dark-onPrimary-main-hover
+    dark:active:bg-dark-primary-main-active dark:active:text-dark-onPrimary-main-active
+    dark:disabled:bg-dark-primary-main-disable dark:disabled:text-dark-onPrimary-main-disable"
   >
     {{ text }}
   </button>
