@@ -20,13 +20,13 @@ export default {
       current: 'currentColor',
 
       primary: {
-        mainSet: {
+        main: {
           enable: 'var(--color-blue-500)',
           hover: 'var(--color-blue-700)',
           pressed: 'var(--color-blue-900)',
           disable: 'var(--color-argent-25)',
         },
-        varSet: {
+        var: {
           enable: 'var(--color-argent-0)',
           hover: 'var(--color-blue-100)',
           pressed: 'var(--color-blue-300)',
@@ -34,13 +34,13 @@ export default {
         },
       },
       onPrimary: {
-        mainSet: {
+        main: {
           enable: 'var(--color-argent-0)',
           hover: 'var(--color-blue-100)',
           pressed: 'var(--color-argent-0)',
           disable: 'var(--color-argent-5)',
         },
-        varSet: {
+        var: {
           enable: 'var(--color-blue-500)',
           hover: 'var(--color-blue-700)',
           pressed: 'var(--color-blue-900)',
@@ -49,7 +49,7 @@ export default {
       },
       dark: {
         primary: {
-          mainSet: {
+          main: {
             enable: 'var(--color-blue-300)',
             hover: 'var(--color-blue-100)',
             pressed: 'var(--color-argent-0)',
@@ -57,7 +57,7 @@ export default {
           },
         },
         onPrimary: {
-          mainSet: {
+          main: {
             enable: 'var(--color-argent-0)',
             hover: 'var(--color-blue-500)',
             pressed: 'var(--color-blue-700)',
