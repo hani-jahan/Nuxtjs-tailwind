@@ -243,6 +243,40 @@ export default {
       iranSans: ['IranSans'],
     },
 
+    fontSize: {
+      'lg-display-1': [
+        '3rem',
+        {
+          lineHeight: '150%',
+          letterSpacing: '-0.01em',
+          fontWeight: '950',
+        },
+      ],
+      'lg-display-2': [
+        '2.25rem',
+        {
+          lineHeight: '150%',
+          letterSpacing: '-0.01em',
+          fontWeight: '950',
+        },
+      ],
+      'sm-display-1': [
+        '1.75rem',
+        {
+          lineHeight: '150%',
+          letterSpacing: '-0.01em',
+          fontWeight: '950',
+        },
+      ],
+      'sm-display-2': [
+        '1.5rem',
+        {
+          lineHeight: '150%',
+          letterSpacing: '-0.01em',
+          fontWeight: '950',
+        },
+      ],
+    },
   },
   plugins: [],
 };
