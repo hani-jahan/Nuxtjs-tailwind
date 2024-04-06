@@ -34,13 +34,11 @@ export default {
       },
 
       primary: {
-        main: {
-          DEFAULT: 'var(--color-blue-500)',
-          hover: 'var(--color-blue-700)',
-          active: 'var(--color-blue-900)',
-          disable: 'var(--color-argent-25)',
-        },
-        var: {
+        DEFAULT: 'var(--color-blue-500)',
+        hover: 'var(--color-blue-700)',
+        active: 'var(--color-blue-900)',
+        disable: 'var(--color-argent-25)',
+        outline: {
           DEFAULT: 'var(--color-blue-100)',
           hover: 'var(--color-blue-300)',
           active: 'var(--color-blue-500)',
@@ -48,13 +46,11 @@ export default {
         },
       },
       onPrimary: {
-        main: {
-          DEFAULT: 'var(--color-argent-0)',
-          hover: 'var(--color-blue-100)',
-          active: 'var(--color-blue-100)',
-          disable: 'var(--color-argent-45)',
-        },
-        var: {
+        DEFAULT: 'var(--color-argent-0)',
+        hover: 'var(--color-blue-100)',
+        active: 'var(--color-blue-100)',
+        disable: 'var(--color-argent-45)',
+        outline: {
           DEFAULT: 'var(--color-blue-500)',
           hover: 'var(--color-blue-700)',
           active: 'var(--color-blue-900)',
@@ -63,13 +59,11 @@ export default {
       },
 
       secondary: {
-        main: {
-          DEFAULT: 'var(--color-orange-500)',
-          hover: 'var(--color-orange-700)',
-          active: 'var(--color-orange-900)',
-          disable: 'var(--color-argent-40)',
-        },
-        var: {
+        DEFAULT: 'var(--color-orange-500)',
+        hover: 'var(--color-orange-700)',
+        active: 'var(--color-orange-900)',
+        disable: 'var(--color-argent-40)',
+        outline: {
           DEFAULT: 'var(--color-orange-100)',
           hover: 'var(--color-orange-300)',
           active: 'var(--color-orange-500)',
@@ -77,13 +71,11 @@ export default {
         },
       },
       onSecondary: {
-        main: {
-          DEFAULT: 'var(--color-argent-5)',
-          hover: 'var(--color-orange-100)',
-          active: 'var(--color-argent-5)',
-          disable: 'var(--color-argent-5)',
-        },
-        var: {
+        DEFAULT: 'var(--color-argent-5)',
+        hover: 'var(--color-orange-100)',
+        active: 'var(--color-argent-5)',
+        disable: 'var(--color-argent-5)',
+        outline: {
           DEFAULT: 'var(--color-orange-500)',
           hover: 'var(--color-orange-100)',
           active: 'var(--color-argent-5)',
@@ -146,13 +138,11 @@ export default {
         },
 
         primary: {
-          main: {
-            DEFAULT: 'var(--color-blue-500)',
-            hover: 'var(--color-blue-100)',
-            active: 'var(--color-argent-5)',
-            disable: 'var(--color-argent-40)',
-          },
-          var: {
+          DEFAULT: 'var(--color-blue-500)',
+          hover: 'var(--color-blue-100)',
+          active: 'var(--color-argent-5)',
+          disable: 'var(--color-argent-40)',
+          outline: {
             DEFAULT: 'var(--color-argent-5)',
             hover: 'var(--color-blue-100)',
             active: 'var(--color-blue-300)',
@@ -160,13 +150,11 @@ export default {
           },
         },
         onPrimary: {
-          main: {
-            DEFAULT: 'var(--color-argent-5)',
-            hover: 'var(--color-blue-500)',
-            active: 'var(--color-blue-700)',
-            disable: 'var(--color-argent-10)',
-          },
-          var: {
+          DEFAULT: 'var(--color-argent-5)',
+          hover: 'var(--color-blue-500)',
+          active: 'var(--color-blue-700)',
+          disable: 'var(--color-argent-10)',
+          outline: {
             DEFAULT: 'var(--color-blue-500)',
             hover: 'var(--color-blue-500)',
             active: 'var(--color-argent-5)',
@@ -175,13 +163,11 @@ export default {
         },
 
         secondary: {
-          main: {
-            DEFAULT: 'var(--color-orange-300)',
-            hover: 'var(--color-orange-100)',
-            active: 'var(--color-argent-5)',
-            disable: 'var(--color-argent-40)',
-          },
-          var: {
+          DEFAULT: 'var(--color-orange-300)',
+          hover: 'var(--color-orange-100)',
+          active: 'var(--color-argent-5)',
+          disable: 'var(--color-argent-40)',
+          outline: {
             DEFAULT: 'var(--color-argent-5)',
             hover: 'var(--color-orange-100)',
             active: 'var(--color-orange-300)',
@@ -189,13 +175,11 @@ export default {
           },
         },
         onSecondary: {
-          main: {
-            DEFAULT: 'var(--color-argent-5)',
-            hover: 'var(--color-orange-100)',
-            active: 'var(--color-orange-700)',
-            disable: 'var(--color-argent-10)',
-          },
-          var: {
+          DEFAULT: 'var(--color-argent-5)',
+          hover: 'var(--color-orange-100)',
+          active: 'var(--color-orange-700)',
+          disable: 'var(--color-argent-10)',
+          outline: {
             DEFAULT: 'var(--color-orange-500)',
             hover: 'var(--color-orange-500)',
             active: 'var(--color-argent-5)',
