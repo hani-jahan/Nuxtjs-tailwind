@@ -10,6 +10,7 @@ export default {
       },
     },
 
+    // --------------LIGHT COLORS--------------
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -37,7 +38,7 @@ export default {
           DEFAULT: 'var(--color-blue-500)',
           hover: 'var(--color-blue-700)',
           active: 'var(--color-blue-900)',
-          disable: 'var(--color-argent-40)',
+          disable: 'var(--color-argent-25)',
         },
         var: {
           DEFAULT: 'var(--color-blue-100)',
@@ -48,16 +49,16 @@ export default {
       },
       onPrimary: {
         main: {
-          DEFAULT: 'var(--color-argent-5)',
+          DEFAULT: 'var(--color-argent-0)',
           hover: 'var(--color-blue-100)',
-          active: 'var(--color-argent-5)',
-          disable: 'var(--color-argent-5)',
+          active: 'var(--color-blue-100)',
+          disable: 'var(--color-argent-45)',
         },
         var: {
           DEFAULT: 'var(--color-blue-500)',
-          hover: 'var(--color-blue-100)',
-          active: 'var(--color-argent-5)',
-          disable: 'var(--color-argent-5)',
+          hover: 'var(--color-blue-700)',
+          active: 'var(--color-blue-900)',
+          disable: 'var(--color-argent-45)',
         },
       },
 
@@ -124,6 +125,7 @@ export default {
       info: 'var(--color-sky-500)',
       onInfo: 'var(--color-argent-5)',
 
+      // --------------DARK COLORS--------------
       dark: {
         surface: {
           bright: 'var(--color-carbon-95)',
@@ -145,7 +147,7 @@ export default {
 
         primary: {
           main: {
-            DEFAULT: 'var(--color-blue-300)',
+            DEFAULT: 'var(--color-blue-500)',
             hover: 'var(--color-blue-100)',
             active: 'var(--color-argent-5)',
             disable: 'var(--color-argent-40)',
@@ -236,10 +238,11 @@ export default {
         onInfo: 'var(--color-argent-5)',
       },
     },
-
+    // --------------TYPOGRAPHY--------------
     fontFamily: {
       iranSans: ['IranSans'],
     },
+
   },
   plugins: [],
 };
