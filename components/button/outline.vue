@@ -1,6 +1,6 @@
 <template>
   <button
-    class="py-3 px-5 text-center rounded-lg leading-6 text-base font-iranSans font-normal border-2
+    class="py-3 px-5 text-center rounded-lg leading-6 text-base font-normal border-2
 
     bg-transparent text-onPrimary-var border-onPrimary-var
     

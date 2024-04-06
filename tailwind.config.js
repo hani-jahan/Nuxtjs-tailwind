@@ -248,7 +248,7 @@ export default {
         '3rem',
         {
           lineHeight: '150%',
-          letterSpacing: '-0.01em',
+          // letterSpacing: '-0.01em',
           fontWeight: '950',
         },
       ],
@@ -256,7 +256,7 @@ export default {
         '2.25rem',
         {
           lineHeight: '150%',
-          letterSpacing: '-0.01em',
+          // letterSpacing: '-0.01em',
           fontWeight: '950',
         },
       ],
@@ -264,7 +264,7 @@ export default {
         '1.75rem',
         {
           lineHeight: '150%',
-          letterSpacing: '-0.01em',
+          // letterSpacing: '-0.01em',
           fontWeight: '950',
         },
       ],
@@ -272,7 +272,7 @@ export default {
         '1.5rem',
         {
           lineHeight: '150%',
-          letterSpacing: '-0.01em',
+          // letterSpacing: '-0.01em',
           fontWeight: '950',
         },
       ],

@@ -1,6 +1,6 @@
 <template>
   <button
-    class="py-3 px-5 text-center rounded-lg leading-6 text-base font-iranSans font-normal
+    class="py-3 px-5 text-center rounded-lg leading-6 text-base font-normal
     bg-primary-main text-onPrimary-main
     hover:bg-primary-main-hover hover:text-onPrimary-main-hover
     active:bg-primary-main-active active:text-onPrimary-main-active
