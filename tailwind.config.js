@@ -37,24 +37,25 @@ export default {
         DEFAULT: 'var(--color-blue-500)',
         hover: 'var(--color-blue-700)',
         active: 'var(--color-blue-900)',
-        disable: 'var(--color-argent-25)',
+        disabled: 'var(--color-argent-25)',
         outline: {
           DEFAULT: 'var(--color-blue-100)',
           hover: 'var(--color-blue-300)',
           active: 'var(--color-blue-500)',
-          disable: 'var(--color-argent-40)',
+          disabled: 'var(--color-argent-40)',
         },
       },
-      onPrimary: {
+
+      onprimary: {
         DEFAULT: 'var(--color-argent-0)',
         hover: 'var(--color-blue-100)',
         active: 'var(--color-blue-100)',
-        disable: 'var(--color-argent-45)',
+        disabled: 'var(--color-argent-45)',
         outline: {
           DEFAULT: 'var(--color-blue-500)',
           hover: 'var(--color-blue-700)',
           active: 'var(--color-blue-900)',
-          disable: 'var(--color-argent-45)',
+          disabled: 'var(--color-argent-45)',
         },
       },
 
@@ -62,24 +63,25 @@ export default {
         DEFAULT: 'var(--color-orange-500)',
         hover: 'var(--color-orange-700)',
         active: 'var(--color-orange-900)',
-        disable: 'var(--color-argent-40)',
+        disabled: 'var(--color-argent-40)',
         outline: {
           DEFAULT: 'var(--color-orange-100)',
           hover: 'var(--color-orange-300)',
           active: 'var(--color-orange-500)',
-          disable: 'var(--color-argent-40)',
+          disabled: 'var(--color-argent-40)',
         },
       },
+
       onSecondary: {
         DEFAULT: 'var(--color-argent-5)',
         hover: 'var(--color-orange-100)',
         active: 'var(--color-argent-5)',
-        disable: 'var(--color-argent-5)',
+        disabled: 'var(--color-argent-5)',
         outline: {
           DEFAULT: 'var(--color-orange-500)',
           hover: 'var(--color-orange-100)',
           active: 'var(--color-argent-5)',
-          disable: 'var(--color-argent-5)',
+          disabled: 'var(--color-argent-5)',
         },
       },
 
@@ -87,28 +89,28 @@ export default {
         DEFAULT: 'var(--color-red-500)',
         hover: 'var(--color-red-700)',
         active: 'var(--color-red-900)',
-        disable: 'var(--color-argent-40)',
+        disabled: 'var(--color-argent-40)',
       },
 
       onError: {
         DEFAULT: 'var(--color-argent-5)',
         hover: 'var(--color-red-100)',
         active: 'var(--color-red-100)',
-        disable: 'var(--color-argent-5)',
+        disabled: 'var(--color-argent-5)',
       },
 
       success: {
         DEFAULT: 'var(--color-green-500)',
         hover: 'var(--color-green-700)',
         active: 'var(--color-green-900)',
-        disable: 'var(--color-argent-40)',
+        disabled: 'var(--color-argent-40)',
       },
 
       onSuccess: {
         DEFAULT: 'var(--color-argent-5)',
         hover: 'var(--color-green-100)',
         active: 'var(--color-argent-5)',
-        disable: 'var(--color-argent-5)',
+        disabled: 'var(--color-argent-5)',
       },
 
       warning: 'var(--color-yellow-500)',
@@ -141,24 +143,25 @@ export default {
           DEFAULT: 'var(--color-blue-500)',
           hover: 'var(--color-blue-100)',
           active: 'var(--color-argent-5)',
-          disable: 'var(--color-argent-40)',
+          disabled: 'var(--color-argent-40)',
           outline: {
             DEFAULT: 'var(--color-argent-5)',
             hover: 'var(--color-blue-100)',
             active: 'var(--color-blue-300)',
-            disable: 'var(--color-argent-40)',
+            disabled: 'var(--color-argent-40)',
           },
         },
-        onPrimary: {
+
+        onprimary: {
           DEFAULT: 'var(--color-argent-5)',
           hover: 'var(--color-blue-500)',
           active: 'var(--color-blue-700)',
-          disable: 'var(--color-argent-10)',
+          disabled: 'var(--color-argent-10)',
           outline: {
             DEFAULT: 'var(--color-blue-500)',
             hover: 'var(--color-blue-500)',
             active: 'var(--color-argent-5)',
-            disable: 'var(--color-argent-10)',
+            disabled: 'var(--color-argent-10)',
           },
         },
 
@@ -166,24 +169,25 @@ export default {
           DEFAULT: 'var(--color-orange-300)',
           hover: 'var(--color-orange-100)',
           active: 'var(--color-argent-5)',
-          disable: 'var(--color-argent-40)',
+          disabled: 'var(--color-argent-40)',
           outline: {
             DEFAULT: 'var(--color-argent-5)',
             hover: 'var(--color-orange-100)',
             active: 'var(--color-orange-300)',
-            disable: 'var(--color-argent-40)',
+            disabled: 'var(--color-argent-40)',
           },
         },
+
         onSecondary: {
           DEFAULT: 'var(--color-argent-5)',
           hover: 'var(--color-orange-100)',
           active: 'var(--color-orange-700)',
-          disable: 'var(--color-argent-10)',
+          disabled: 'var(--color-argent-10)',
           outline: {
             DEFAULT: 'var(--color-orange-500)',
             hover: 'var(--color-orange-500)',
             active: 'var(--color-argent-5)',
-            disable: 'var(--color-argent-40)',
+            disabled: 'var(--color-argent-40)',
           },
         },
 
@@ -191,28 +195,28 @@ export default {
           DEFAULT: 'var(--color-red-300)',
           hover: 'var(--color-red-100)',
           active: 'var(--color-argent-5)',
-          disable: 'var(--color-argent-40)',
+          disabled: 'var(--color-argent-40)',
         },
 
         onError: {
           DEFAULT: 'var(--color-argent-5)',
           hover: 'var(--color-red-500)',
           active: 'var(--color-red-700)',
-          disable: 'var(--color-argent-10)',
+          disabled: 'var(--color-argent-10)',
         },
 
         success: {
           DEFAULT: 'var(--color-green-300)',
           hover: 'var(--color-green-100)',
           active: 'var(--color-argent-5)',
-          disable: 'var(--color-argent-40)',
+          disabled: 'var(--color-argent-40)',
         },
 
         onSuccess: {
           DEFAULT: 'var(--color-argent-5)',
           hover: 'var(--color-green-500)',
           active: 'var(--color-green-700)',
-          disable: 'var(--color-argent-10)',
+          disabled: 'var(--color-argent-10)',
         },
 
         warning: 'var(--color-yellow-500)',
