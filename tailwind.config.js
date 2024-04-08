@@ -1,269 +1,103 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  darkMode: 'selector',
-  content: ['./**/*.{html,vue}'],
+module.exports = {
+  content: [
+    './index.html',
+    './src/**/*.{vue,js,ts}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
     extend: {
       borderRadius: {
         '4xl': '2rem',
         '5xl': '2.5rem',
       },
-    },
 
-    // --------------LIGHT COLORS--------------
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-
-      surface: {
-        bright: 'var(--color-argent-5)',
-        sur: 'var(--color-argent-15)',
-        dim: 'var(--color-argent-25)',
-      },
-
-      container: {
-        lowest: 'var(--color-argent-0)',
-        low: 'var(--color-argent-10)',
-        high: 'var(--color-argent-20)',
-        highest: 'var(--color-argent-30)',
-      },
-
-      onSurfCont: {
-        high: 'var(--color-carbon-90)',
-        low: 'var(--color-carbon-70)',
-      },
-
-      primary: {
-        DEFAULT: 'var(--color-blue-500)',
-        hover: 'var(--color-blue-700)',
-        active: 'var(--color-blue-900)',
-        disabled: 'var(--color-argent-25)',
-        outline: {
-          DEFAULT: 'var(--color-blue-100)',
-          hover: 'var(--color-blue-300)',
-          active: 'var(--color-blue-500)',
-          disabled: 'var(--color-argent-40)',
+      // --------------LIGHT COLORS--------------
+      colors: {
+        brandblue: {
+          50: '#F3F4FC',
+          100: '#EBECFA',
+          200: '#D3D6F3',
+          300: '#BBC0EC',
+          400: '#9BA2E4',
+          500: '#737DD9',
+          600: '#3340BA',
+          700: '#2D39A4',
+          800: '#242E84',
+          900: '#19205C',
+          950: '#10153C',
         },
-      },
-
-      onprimary: {
-        DEFAULT: 'var(--color-argent-0)',
-        hover: 'var(--color-blue-100)',
-        active: 'var(--color-blue-100)',
-        disabled: 'var(--color-argent-45)',
-        outline: {
-          DEFAULT: 'var(--color-blue-500)',
-          hover: 'var(--color-blue-700)',
-          active: 'var(--color-blue-900)',
-          disabled: 'var(--color-argent-45)',
+        brandorange: {
+          50: '#FFF9F5',
+          100: '#FEF2EB',
+          200: '#FDDFCE',
+          300: '#FCCFB5',
+          400: '#FBB993',
+          500: '#FAA370',
+          600: '#F88646',
+          700: '#F66009',
+          800: '#CE5108',
+          900: '#933A06',
+          950: '#6C2A04',
         },
-      },
-
-      secondary: {
-        DEFAULT: 'var(--color-orange-500)',
-        hover: 'var(--color-orange-700)',
-        active: 'var(--color-orange-900)',
-        disabled: 'var(--color-argent-40)',
-        outline: {
-          DEFAULT: 'var(--color-orange-100)',
-          hover: 'var(--color-orange-300)',
-          active: 'var(--color-orange-500)',
-          disabled: 'var(--color-argent-40)',
+        brandgreen: {
+          50: '#F1FDFA',
+          100: '#DFFBF3',
+          200: '#BBF7E5',
+          300: '#92F2D5',
+          400: '#56EBBE',
+          500: '#1BDFA4',
+          600: '#19D19A',
+          700: '#16B686',
+          800: '#139B72',
+          900: '#0D6D50',
+          950: '#094D39',
         },
-      },
-
-      onSecondary: {
-        DEFAULT: 'var(--color-argent-5)',
-        hover: 'var(--color-orange-100)',
-        active: 'var(--color-argent-5)',
-        disabled: 'var(--color-argent-5)',
-        outline: {
-          DEFAULT: 'var(--color-orange-500)',
-          hover: 'var(--color-orange-100)',
-          active: 'var(--color-argent-5)',
-          disabled: 'var(--color-argent-5)',
+        brandred: {
+          50: '#FEF5F8',
+          100: '#FEECF1',
+          200: '#FDD8E3',
+          300: '#FBC0D2',
+          400: '#FAA4BD',
+          500: '#F77DA2',
+          600: '#F4457A',
+          700: '#EC0E51',
+          800: '#C10B42',
+          900: '#8C0830',
+          950: '#650623',
         },
-      },
-
-      error: {
-        DEFAULT: 'var(--color-red-500)',
-        hover: 'var(--color-red-700)',
-        active: 'var(--color-red-900)',
-        disabled: 'var(--color-argent-40)',
-      },
-
-      onError: {
-        DEFAULT: 'var(--color-argent-5)',
-        hover: 'var(--color-red-100)',
-        active: 'var(--color-red-100)',
-        disabled: 'var(--color-argent-5)',
-      },
-
-      success: {
-        DEFAULT: 'var(--color-green-500)',
-        hover: 'var(--color-green-700)',
-        active: 'var(--color-green-900)',
-        disabled: 'var(--color-argent-40)',
-      },
-
-      onSuccess: {
-        DEFAULT: 'var(--color-argent-5)',
-        hover: 'var(--color-green-100)',
-        active: 'var(--color-argent-5)',
-        disabled: 'var(--color-argent-5)',
-      },
-
-      warning: 'var(--color-yellow-500)',
-      onWarning: 'var(--color-argent-5)',
-
-      info: 'var(--color-sky-500)',
-      onInfo: 'var(--color-argent-5)',
-
-      // --------------DARK COLORS--------------
-      dark: {
-        surface: {
-          bright: 'var(--color-carbon-95)',
-          sur: 'var(--color-carbon-85)',
-          dim: 'var(--color-carbon-75)',
+        brandyellow: {
+          50: '#FFFCF5',
+          100: '#FFF9E5',
+          200: '#FFF4D1',
+          300: '#FFEDB8',
+          400: '#FFE699',
+          500: '#FFE085',
+          600: '#FFD762',
+          700: '#F5B800',
+          800: '#CC9900',
+          900: '#946F00',
+          950: '#6B5000',
         },
-
-        container: {
-          lowest: 'var(--color-carbon-100)',
-          low: 'var(--color-carbon-90)',
-          high: 'var(--color-carbon-80)',
-          highest: 'var(--color-carbon-70)',
+        brandsky: {
+          50: '#F5FBFF',
+          100: '#EBF7FF',
+          200: '#D6EEFF',
+          300: '#BDE3FF',
+          400: '#A3D9FF',
+          500: '#85CCFF',
+          600: '#62BDFF',
+          700: '#29A6FF',
+          800: '#0086E6',
+          900: '#0065AD',
+          950: '#00477A',
         },
-
-        onSurfCont: {
-          high: 'var(--color-argent-10)',
-          low: 'var(--color-argent-30)',
-        },
-
-        primary: {
-          DEFAULT: 'var(--color-blue-500)',
-          hover: 'var(--color-blue-100)',
-          active: 'var(--color-argent-5)',
-          disabled: 'var(--color-argent-40)',
-          outline: {
-            DEFAULT: 'var(--color-argent-5)',
-            hover: 'var(--color-blue-100)',
-            active: 'var(--color-blue-300)',
-            disabled: 'var(--color-argent-40)',
-          },
-        },
-
-        onprimary: {
-          DEFAULT: 'var(--color-argent-5)',
-          hover: 'var(--color-blue-500)',
-          active: 'var(--color-blue-700)',
-          disabled: 'var(--color-argent-10)',
-          outline: {
-            DEFAULT: 'var(--color-blue-500)',
-            hover: 'var(--color-blue-500)',
-            active: 'var(--color-argent-5)',
-            disabled: 'var(--color-argent-10)',
-          },
-        },
-
-        secondary: {
-          DEFAULT: 'var(--color-orange-300)',
-          hover: 'var(--color-orange-100)',
-          active: 'var(--color-argent-5)',
-          disabled: 'var(--color-argent-40)',
-          outline: {
-            DEFAULT: 'var(--color-argent-5)',
-            hover: 'var(--color-orange-100)',
-            active: 'var(--color-orange-300)',
-            disabled: 'var(--color-argent-40)',
-          },
-        },
-
-        onSecondary: {
-          DEFAULT: 'var(--color-argent-5)',
-          hover: 'var(--color-orange-100)',
-          active: 'var(--color-orange-700)',
-          disabled: 'var(--color-argent-10)',
-          outline: {
-            DEFAULT: 'var(--color-orange-500)',
-            hover: 'var(--color-orange-500)',
-            active: 'var(--color-argent-5)',
-            disabled: 'var(--color-argent-40)',
-          },
-        },
-
-        error: {
-          DEFAULT: 'var(--color-red-300)',
-          hover: 'var(--color-red-100)',
-          active: 'var(--color-argent-5)',
-          disabled: 'var(--color-argent-40)',
-        },
-
-        onError: {
-          DEFAULT: 'var(--color-argent-5)',
-          hover: 'var(--color-red-500)',
-          active: 'var(--color-red-700)',
-          disabled: 'var(--color-argent-10)',
-        },
-
-        success: {
-          DEFAULT: 'var(--color-green-300)',
-          hover: 'var(--color-green-100)',
-          active: 'var(--color-argent-5)',
-          disabled: 'var(--color-argent-40)',
-        },
-
-        onSuccess: {
-          DEFAULT: 'var(--color-argent-5)',
-          hover: 'var(--color-green-500)',
-          active: 'var(--color-green-700)',
-          disabled: 'var(--color-argent-10)',
-        },
-
-        warning: 'var(--color-yellow-500)',
-        onWarning: 'var(--color-argent-5)',
-
-        info: 'var(--color-sky-500)',
-        onInfo: 'var(--color-argent-5)',
       },
     },
     // --------------TYPOGRAPHY--------------
     fontFamily: {
       iranSans: ['IranSans'],
-    },
-
-    fontSize: {
-      'lg-display-1': [
-        '3rem',
-        {
-          lineHeight: '150%',
-          // letterSpacing: '-0.01em',
-          fontWeight: '950',
-        },
-      ],
-      'lg-display-2': [
-        '2.25rem',
-        {
-          lineHeight: '150%',
-          // letterSpacing: '-0.01em',
-          fontWeight: '950',
-        },
-      ],
-      'sm-display-1': [
-        '1.75rem',
-        {
-          lineHeight: '150%',
-          // letterSpacing: '-0.01em',
-          fontWeight: '950',
-        },
-      ],
-      'sm-display-2': [
-        '1.5rem',
-        {
-          lineHeight: '150%',
-          // letterSpacing: '-0.01em',
-          fontWeight: '950',
-        },
-      ],
     },
   },
   plugins: [],
