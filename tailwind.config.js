@@ -15,7 +15,7 @@ module.exports = {
 
       // --------------LIGHT COLORS--------------
       colors: {
-        brandblue: {
+        kgblue: {
           50: '#F3F4FC',
           100: '#EBECFA',
           200: '#D3D6F3',
@@ -28,7 +28,7 @@ module.exports = {
           900: '#19205C',
           950: '#10153C',
         },
-        brandorange: {
+        kgorange: {
           50: '#FFF9F5',
           100: '#FEF2EB',
           200: '#FDDFCE',
@@ -41,7 +41,7 @@ module.exports = {
           900: '#933A06',
           950: '#6C2A04',
         },
-        brandgreen: {
+        kggreen: {
           50: '#F1FDFA',
           100: '#DFFBF3',
           200: '#BBF7E5',
@@ -54,7 +54,7 @@ module.exports = {
           900: '#0D6D50',
           950: '#094D39',
         },
-        brandred: {
+        kgred: {
           50: '#FEF5F8',
           100: '#FEECF1',
           200: '#FDD8E3',
@@ -67,7 +67,7 @@ module.exports = {
           900: '#8C0830',
           950: '#650623',
         },
-        brandyellow: {
+        kgyellow: {
           50: '#FFFCF5',
           100: '#FFF9E5',
           200: '#FFF4D1',
@@ -80,7 +80,7 @@ module.exports = {
           900: '#946F00',
           950: '#6B5000',
         },
-        brandsky: {
+        kgsky: {
           50: '#F5FBFF',
           100: '#EBF7FF',
           200: '#D6EEFF',
