@@ -6,6 +6,6 @@ export default defineNuxtConfig({
     preference: "light",
   },
   ui: {
-    icons: ["carbon"],
+    // icons: ["carbon"],
   },
 });
